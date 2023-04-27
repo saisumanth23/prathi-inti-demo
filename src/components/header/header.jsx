@@ -5,7 +5,7 @@ import styled from "styled-components";
 const StyledWrapper = styled.div`
   display: flex;
   background-color: yellow;
-  justify-content: center;
+  justify-content: flex-start;
 `;
 
 const Header = () => {
@@ -13,10 +13,10 @@ const Header = () => {
     <StyledWrapper>
       <img
         src={PrathiIntiImage}
-        style={{ height: "42vh", padding: "20px" }}
+        style={{ height: "23vh", padding: "20px" }}
         alt="Logo"
       />
-      <h2 style={{ paddingTop: "66px", fontSize: "11vh" }}>Prathi Inti</h2>
+      <h2 style={{ paddingTop: "6px", fontSize: "10vh" }}>Prathi Inti</h2>
     </StyledWrapper>
   );
 };
